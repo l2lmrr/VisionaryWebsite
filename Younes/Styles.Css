@@ -8,8 +8,6 @@
   src: url(font/IBMPlexMono-Light.ttf) format('woff');
 }
 
-
-
 body {
     font-family: agency;
     font-size: medium;
@@ -60,8 +58,6 @@ body {
     color: #333;
     transition: color 0.3s;
   }
-
-  
   
   .nav a:hover {
     color: #007BFF;
@@ -90,10 +86,6 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-
-  .active{
-    color: #007BFF;
   }
   
   
@@ -254,7 +246,6 @@ body {
     width: 50%;
     padding: 15px;
     font-size: 1.4em; 
-    opacity: 0.85;
 }
 
 .container-partners{
