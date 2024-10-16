@@ -24,22 +24,34 @@ body {
     padding: 20px;
     background-color: #f8f8f8;
   }
-  
   .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .nav ul {
-    list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav li {
-    margin: 0 15px;
-  }
+    align-items: center; /* Vertically center logo and name */
+}
+
+.logo img {
+    height: 50px; /* Set the height of the logo */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo and company name */
+}
+
+.company-name {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the company name bold */
+    letter-spacing: 3px;
+}
+
+.nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Display items in a row */
+}
+
+.nav li {
+  font-size: large;
+    margin: 0 15px; /* Space between nav items */
+}
   
   .nav a {
     text-decoration: none;
