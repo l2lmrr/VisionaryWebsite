@@ -52,7 +52,7 @@ body {
   }
   
   .nav a:hover {
-    color: #007BFF;
+    color: #002b58;
   }
   
   .right-section {
@@ -63,7 +63,7 @@ body {
   .login-button {
     margin-right: 15px;
     padding: 10px 15px;
-    background-color: #007BFF;
+    background-color: #00438A;
     color: white;
     border: none;
     border-radius: 5px;
@@ -71,7 +71,7 @@ body {
   }
   
   .login-button:hover {
-    background-color: #007BFF;
+    background-color: #002b58;
   }
   
   .search-bar {
@@ -115,7 +115,7 @@ body {
   }
   
   .nav a:hover {
-    color: #007BFF;
+    color: #002b58;
   }
   
   .right-section {
@@ -126,7 +126,7 @@ body {
   .login-button {
     margin-right: 15px;
     padding: 10px 15px;
-    background-color: #007BFF;
+    background-color: #00438A;
     color: white;
     border: none;
     border-radius: 5px;
@@ -134,7 +134,7 @@ body {
   }
   
   .login-button:hover {
-    background-color: #0056b3;
+    background-color: #002b58;
   }
   
   .search-bar {
@@ -178,7 +178,7 @@ body {
   }
   
   .footer-links a {
-    color: #007BFF;
+    color: #61ADFF;
     text-decoration: none;
   }
   
@@ -381,7 +381,7 @@ body {
 }
 
 .active{
-  color:#007BFF ;
+  color:#00438A ;
 }
 
 .br_serv{
