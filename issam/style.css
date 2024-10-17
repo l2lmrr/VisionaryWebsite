@@ -244,6 +244,7 @@ body {
 .slide img {
     width: 100%;
     height: 100%;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -306,6 +307,7 @@ body {
     padding: 0px;
     margin: -50px 0px 0px 100px;
     width: 350px;
+    max-width: 100%;
 }
 
 
@@ -333,12 +335,13 @@ body {
     padding: 0px;
     margin: -20px 0px 0px 100px;
     width: 390px;
+    max-width: 100%;
 }
 
 .philos{
     background-color: #EDEDED  ;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
     margin-left: -19px;
     margin-right: -19px;
     
@@ -357,27 +360,26 @@ body {
     margin-right: 200px;
     font-size: 25px;
 }
+.philos .qt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .philos .quote{
     display: inline-block;
     font-size: larger;
-    margin-top: 50px;
-    margin-right: 290px;
-    margin-bottom: 0px;
-    margin-left: 300px;
     width: 600px;
     padding: 0px;
     height: 50px;
-    float: inline-end;
+    text-align: center;
+    position: relative;
+    top: 30px;
 }
 .philos img{
-    padding: 0px;
-    width: 300px;
-    margin-top: 0px;
-    margin-left: 300px;
-    margin-bottom: -120px;
-    position: relative;
-    bottom: 140px;
+    padding: 0px;   
+    width: 200px;
+    max-width: 100%;
 }
 
 .active{
@@ -416,7 +418,9 @@ body {
   padding: 0px;
   margin: -50px 0px 0px 100px;
   width: 400px;
-}
+  max-width: 100%;
+  }
+
 
 .view_more{
     font-size: 20px;
