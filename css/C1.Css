@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: ibm;
-  src: url(fonts/DMSans-VariableFont_opsz,wght.ttf) format('woff');
+  src: url(fonts/IBMPlexMono-Light.ttf) format('woff');
 }
 
 body {
@@ -173,9 +173,6 @@ body {
 .footer {
   background-color: #1a1a1a;
   color: #ffffff;
-  font-family: ibm;
-  font-size: large;
-  text-align: center;
   padding: 40px 20px;
 }
 
@@ -225,7 +222,7 @@ body {
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
-  font-size: px;
+  font-size: 14px;
   border-top: 1px solid #444;
   padding-top: 10px;
 }
