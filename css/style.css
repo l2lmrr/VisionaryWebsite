@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: agency;
-    src: url(fonts/AGENCYB.TTF) format('woff');
+    src: url(../font/AGENCYB.TTF) format('woff');
   }
   
   @font-face {
     font-family: ibm;
-    src: url(fonts/IBMPlexMono-Light.ttf) format('woff');
+    src: url(../font/DMSans-VariableFont_opsz\,wght.ttf) format('woff');
   }
 
 body {
@@ -155,6 +155,8 @@ body {
     justify-content: center;
     align-items: baseline;
     background-color: #f4f4f4;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .slidshow {
@@ -162,7 +164,7 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
-    height:600px;
+    height:450px;
     overflow: hidden;
 }
 
@@ -170,6 +172,8 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+    background-size:cover;
+    background-position: center;
     transition: opacity 1s linear;
 }
 
@@ -178,6 +182,7 @@ body {
     height: 100%;
     max-width: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 @keyframes slideshow {
@@ -319,14 +324,13 @@ body {
 
 .view_more{
     font-size: 20px;
-    font-weight: bold;
     color: #3516ff ;
     padding: 5px;
     margin: 0px 0px 10px 100px;
     text-decoration: none;
     list-style-type: none;
     position: relative;
-    bottom: 110px;
+    bottom: 130px;
 } 
 
 .view_more:hover{
@@ -353,12 +357,28 @@ hr{
   background-color: #0056b3;
 }
 
+.text_srv{
+  margin-bottom: 10px;
+}
+
 .row {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   display: flex;
   justify-content:center;
+  flex-wrap: wrap;
+
+}
+
+.row2 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: flex;
+  justify-content:center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .container{
@@ -370,7 +390,7 @@ hr{
   background-color: #cacaca;
   border-radius: 10px;
   width: 20%;
-  height: 230px;
+  height: 10%;
   overflow: hidden;
   padding: 35px;
   margin: 10px;
@@ -380,7 +400,9 @@ hr{
 }
 
 .text{
-  text-align: center;
+  /* text-align: center; */
+  font-family: ibm;
+  font-size: large;
 }
 
 .work:hover{
@@ -426,4 +448,8 @@ hr{
   .valeurs img{
     margin-left: 40%;
   }
+}
+
+@media (max-width:1510px){
+
 }
