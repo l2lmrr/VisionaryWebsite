@@ -367,6 +367,7 @@ hr{
   align-items: center;
   display: flex;
   justify-content:center;
+  flex-wrap: wrap;
 
 }
 
@@ -377,6 +378,7 @@ hr{
   display: flex;
   justify-content:center;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .container{
@@ -388,7 +390,7 @@ hr{
   background-color: #cacaca;
   border-radius: 10px;
   width: 20%;
-  height: 230px;
+  height: 10%;
   overflow: hidden;
   padding: 35px;
   margin: 10px;
@@ -446,4 +448,8 @@ hr{
   .valeurs img{
     margin-left: 40%;
   }
+}
+
+@media (max-width:1510px){
+
 }
