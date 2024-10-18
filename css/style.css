@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: agency;
-    src: url(fonts/AGENCYB.TTF) format('woff');
+    src: url(../font/AGENCYB.TTF) format('woff');
   }
   
   @font-face {
     font-family: ibm;
-    src: url(fonts/IBMPlexMono-Light.ttf) format('woff');
+    src: url(../font/DMSans-VariableFont_opsz\,wght.ttf) format('woff');
   }
 
 body {
@@ -381,6 +381,8 @@ hr{
 
 .text{
   text-align: center;
+  font-family: ibm;
+  font-size: large;
 }
 
 .work:hover{
