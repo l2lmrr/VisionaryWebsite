@@ -319,14 +319,13 @@ body {
 
 .view_more{
     font-size: 20px;
-    font-weight: bold;
     color: #3516ff ;
     padding: 5px;
     margin: 0px 0px 10px 100px;
     text-decoration: none;
     list-style-type: none;
     position: relative;
-    bottom: 110px;
+    bottom: 130px;
 } 
 
 .view_more:hover{
@@ -380,7 +379,7 @@ hr{
 }
 
 .text{
-  text-align: center;
+  /* text-align: center; */
   font-family: ibm;
   font-size: large;
 }
