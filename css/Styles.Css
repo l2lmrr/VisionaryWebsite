@@ -1,11 +1,11 @@
   @font-face {
     font-family: agency;
-    src: url(font/AGENCYB.TTF) format('woff');
+    src: url(../font/AGENCYB.TTF) format('woff');
   }
 
   @font-face {
     font-family: ibm;
-    src: url(font/IBMPlexMono-Light.ttf) format('woff');
+    src: url(../font/IBMPlexMono-Light.ttf) format('woff');
   }
  
     .header {
@@ -282,7 +282,7 @@
   #main-img{ 
   width: 100%;
   height: 400px;
-  background-image: url(image/banner2.webp);
+  background-image: url(../image/banner2.webp);
   margin-top: -8px;
   margin-left: 4px;
   margin-right: 4px;
@@ -337,7 +337,7 @@
   #main-img{ 
   width: 100%;
   height: 400px;
-  background-image: url(image/banner2.webp);
+  background-image: url(../image/banner2.webp);
   margin-top: -8px;
   margin-left: 4px;
   margin-right: 4px;
@@ -393,7 +393,7 @@
   #main-img{ 
   width: 100%;
   height: 400px;
-  background-image: url(image/77b5f422-c487-42a5-bc02-7db2009cba59.webp);
+  background-image: url(../image/77b5f422-c487-42a5-bc02-7db2009cba59.webp);
   margin-top: 8px;
   margin-left: 2%;
   background-repeat:no-repeat;
