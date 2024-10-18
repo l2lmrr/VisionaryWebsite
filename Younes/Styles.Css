@@ -166,6 +166,7 @@
   .text{
     font-family: ibm;
     font-size: medium;
+    text-align: center;
   }
   
   /* .row {
@@ -408,7 +409,7 @@
   width: 80%;
   padding: 16px;
   font-size: 1.4em;
-  opacity: 0.9; 
+  opacity: 0.96; 
   }
 
 .work{

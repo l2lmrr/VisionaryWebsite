@@ -61,3 +61,68 @@
     transform: rotateZ(180deg);
   }
    */
+
+   /* <div class="container-slider">
+   <div class="slider">
+       <div class="slide-track">
+           <div class="slide">
+               <img src="slider/img1.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img2.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img3.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img4.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">    
+               <img src="slider/img5.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img11.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img7.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img8.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img10.jpg" alt="" id="img-slider">
+           </div>
+   
+           <!-- doubled -->
+
+           <div class="slide">
+               <img src="slider/img1.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img2.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img3.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img4.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">    
+               <img src="slider/img5.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img11.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img7.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img8.jpg" alt="" id="img-slider">
+           </div>
+           <div class="slide">
+               <img src="slider/img10.jpg" alt="" id="img-slider">
+           </div>
+           
+       </div>
+   </div>
+</div> */
