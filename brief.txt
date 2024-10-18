@@ -1,0 +1,147 @@
+Contexte du projet
+Objectif:
+
+
+Nous recherchons un développeur Front-end UI/UX compétent pour 
+finaliser la maquette design et effectuer l'intégration des pages 
+web du site Visionary Creations . L'objectif est d'améliorer 
+l'aspect visuel et l'ergonomie du site, tout en offrant une 
+expérience utilisateur exceptionnelle.
+​
+
+Fonctionnalités clés :
+
+
+Intégration de maquettes Figma : Vous recevrez une maquette 
+Figma existante pour la page d'accueil de Visionary Creations 
+Website et devrez concevoir trois nouvelles sections : "Work", 
+"Contact", et le footer.
+
+Proposez un logo convenable pour le site en respectant la charte 
+graphique .
+
+Intégration Web : Après la validation des nouvelles maquettes, 
+vous devrez coder les nouvelles sections en HTML et CSS et les 
+intégrer au site, y compris la mise à jour des liens dans le 
+menu de navigation et le footer.
+​
+
+Optimisation SEO : Vous apporterez au moins trois améliorations 
+pour optimiser le référencement du site selon les standards actuels 
+du SEO.
+
+**Création de contenu **: Vous devrez produire un contenu pertinent 
+pour chaque section, y compris du texte et des images, tout en 
+respectant la vision et l'identité de Visionary Creations Website.
+
+UX/UI et adaptabilité : Vous suivrez les meilleures pratiques 
+UX/UI pour assurer une expérience utilisateur optimale, tout en 
+veillant à ce que le site soit entièrement responsive sur tous 
+les appareils.
+
+Technologies requises :
+​
+
+1
+  - Technologies web :  HTML5, CSS3, Media Queries (facultatifs).
+2
+  -Design graphique : Figma pour la conception et l'édition des 
+  maquettes.
+
+​
+
+Bonus:
+
+​
+
+Intégration de la page Login : Créer et intégrer une page de 
+connexion (Login) en suivant les meilleures pratiques de sécurité 
+et d’ergonomie.
+​
+
+Responsive Design : Utiliser des médias queries pour adapter le 
+site à diverses tailles d’écrans et dispositifs. Tester l'affichage 
+sur smartphones, tablettes et ordinateurs de bureau.
+​
+
+Bonus et recommandations :
+
+​
+
+​
+
+Tests d'utilisabilité : Réaliser des tests avec votre équipe et 
+votre formateur pour valider le design.
+​
+
+​
+
+Respect des standards sémantiques : Utiliser des balises HTML 
+appropriées (h1-h6, p, article, section) pour améliorer la 
+lisibilité et l'accessibilité.
+​
+
+**Bonne pratique CSS **: Organiser les fichiers CSS en modules 
+réutilisables (utilisation de BEM, normalize.css) et veiller à 
+l'application de Media Queries pour garantir une réactivité 
+optimale.
+​
+
+Accessibilité : Tester l'accessibilité du site avec des outils 
+tels que WAVE ou Axe, et utiliser des attributs alt pertinents 
+pour toutes les images.
+​
+
+Compatibilité cross-navigateurs : Tester le site sur plusieurs 
+navigateurs (Chrome, Firefox, Safari, Edge) pour assurer une 
+expérience homogène.
+​
+
+​
+
+​
+
+​
+
+​
+
+​
+
+Modalités pédagogiques
+Travail: en squad. Durée : 5 jours.
+
+Date limite de soumission : 18/10/2024 avant 23:59 .
+
+Modalités d'évaluation
+Vous présenterez votre travail en 25 minutes :
+
+- 5 minutes : Démonstration du site.
+- 10 minutes : Explication du code.
+- 10 minutes : Questions/Réponses.
+
+Livrables
+Le premier livrable à livrer avant le 18/10/2024 à 23 :59 :
+           + Version finale des maquettes (.fig).
+           + Captures d'écran de chaque maquette.
+--  Lien de Repository Github du projet ( Code source du site en 
+    HTML/CSS)
+-- Lien vers le site hébergé (GitHub Pages).
+-- Fichier compressé du design final sur Figma.
+-- La gestion des tâches sur un Scrum Board avec tous les User  
+    stories.
+-- Lien de la présentation
+
+Critères de performance
+
+
+Bonne maitrise et compréhension des balises HTML / Attributs CSS.
+Site qui respecte les normes W3C. 
+Valider votre page HTML avec le service offert par W3C: 
+          https://validator.w3.org/
+Livrable présentable.
+Clean code
+
+
+        fonts:
+                for titles: AGENCYB.TTF
+                for text: IBMPlexMono-Light.ttf
