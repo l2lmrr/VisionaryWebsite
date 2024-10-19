@@ -8,6 +8,69 @@
     <meta name="keywords" content="Conceptions de design futuristes, innovations de pointe, solutions créatives visionnaires, conception de sites web avant-gardistes, créations numériques innovantes, expériences utilisateur révolutionnaires, développement web pionnier, technologies avant-gardistes, expériences web artistiques, solutions numériques révolutionnaires." />
     <meta name="description" content="InnoVibe transforme vos idées en expériences digitales innovantes avec des solutions sur mesure alliant créativité, technologie, et esthétisme. Nous créons des interfaces intuitives pour des interactions captivantes, tout en répondant aux besoins uniques de chaque client." />
     <meta name="author" content="Issam mahtaj"/>
+    <style>
+         /* Additional styles for login section */
+         .login-section {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .login-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+        }
+
+        .login-form h2 {
+            margin-bottom: 20px;
+        }
+
+        .login-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-form button:hover {
+            background-color: #0056b3;
+        }
+
+        .close-login {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #007bff;
+            font-size: 16px;
+            float: right;
+        }
+    </style>
 </head>
 <body>
 
@@ -24,9 +87,8 @@
                 <li><a href="Contact.html">Contactez Nous</a></li>
             </ul>
         </nav>
-        <div class="right-section">
-            <button class="login-button">Login</button>
-            <input id="entrez" type="text" placeholder="🔍 Search..." class="search-bar">
+        <button class="login-button" id="login-button">Connexion</button>
+        <input type="text" class="search-bar" placeholder="Rechercher...">
             <label for="entrez">.</label>
         </div>
         <div class="burger-menu" onclick="toggleMobileMenu()">
@@ -109,6 +171,22 @@
         </div>
     </section>
 
+    <!-- Login Section -->
+    <div class="login-section" id="login-section">
+        <div class="login-form">
+            <h2>Connexion</h2>
+            <button id="close-login" class="close-login">Fermer</button>
+            <form>
+                <label for="username">Nom d'utilisateur</label>
+                <input type="text" id="username" required>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" required>
+                <button type="submit">Se Connecter</button>
+                <p>Pas encore de compte ? <a href="#">S'inscrire</a></p>
+            </form>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-info">
@@ -145,6 +223,20 @@
             const mobileNav = document.getElementById('mobileNav');
             mobileNav.classList.toggle('open');
         }
+    </script>
+    
+    <script>
+        const loginButton = document.getElementById('login-button');
+        const loginSection = document.getElementById('login-section');
+        const closeLoginButton = document.getElementById('close-login');
+
+        loginButton.addEventListener('click', () => {
+            loginSection.style.display = 'flex';
+        });
+
+        closeLoginButton.addEventListener('click', () => {
+            loginSection.style.display = 'none';
+        });
     </script>
 </body>
 </html>
