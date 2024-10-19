@@ -146,18 +146,19 @@ font-size: large;
 
 
 /* ddddddddddddddddddddddddddddd   */
-
-.container {
-  margin-top: 0px;
+ 
+.sl_container {
+  margin-top: 30px;
   margin-left: 0px;
-  margin-right: 0px; 
+  margin-right: 0px;
+  padding: 0px;  
   display: flex; 
   justify-content: center;
   align-items: baseline;
   background-color: #f4f4f4;
   border-radius: 20px;
   border: 1px solid rgb(0, 0, 0);
-}
+} 
 
 .slidshow {
   position: relative;
@@ -379,6 +380,7 @@ display: flex;
 justify-content:center;
 margin-bottom: 50px;
 flex-wrap: wrap;
+/* padding-bottom: 100px; */
 }
 
 .container{
