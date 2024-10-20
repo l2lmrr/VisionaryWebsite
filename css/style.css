@@ -60,7 +60,7 @@ font-size: large;
   align-items: center;
 }
 
-.login-button {
+.login-buttons {
   padding: 10px 15px;
   background-color: #00438A; 
   color: white;
@@ -71,7 +71,7 @@ font-size: large;
   transition: background-color 0.3s;
 }
 
-.login-button:hover {
+.login-buttons:hover {
   background-color: #002b58;
 }
 
@@ -281,8 +281,8 @@ animation: slideshow 21s infinite 18s;
   max-width: 100%;
 }
 
-.active{
-color:#00438A ;
+.actives{
+color:#00458F ;
 }
 
 .br_serv{
@@ -301,6 +301,7 @@ color:#00438A ;
   padding-top: 20px;
   font-size: 35px;
 }
+
 
 /* .sec_serv{
   margin-bottom: 50px;
@@ -429,15 +430,11 @@ margin: 10px;
 
 
 @media (max-width:1040px){
-.who .title{
-margin-left: 300px;
+.who h1{
+ margin-left: 200px;
+ padding: 0px;
 }
-.who .sec1 p{
-width: 90%;
-}
-.who .sec1 img{
-margin-left: 30%;
-}
+
 }
 
 @media (max-width:1510px){
@@ -481,5 +478,7 @@ margin-left: 30%;
   .work img{
     display: none;
   }
+
+
 
 }
