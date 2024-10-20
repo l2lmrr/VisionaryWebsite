@@ -333,8 +333,6 @@ max-width: 100%;
   margin: 0px 0px 10px 100px;
   text-decoration: none;
   list-style-type: none;
-  position: relative;
-  bottom: 130px;
 } 
 
 .view_more:hover{
@@ -431,8 +429,46 @@ margin: 10px;
 
 @media (max-width:1040px){
 .who h1{
- margin-left: 200px;
+ text-align: center;
  padding: 0px;
+}
+
+.who p{
+  width: 95%;
+  margin-left: 10px;
+}
+
+.who img{
+  width: 30%;
+  margin-left: 35%;
+}
+
+.valu h1{
+  text-align: center;
+  padding: 0px;
+}
+.valu p{
+  width: 95%;
+  margin-left: 10px;
+}
+
+.valeurs img{
+  width: 30%;
+  margin-left: 35%;
+}
+
+.br_serv h1{
+  text-align: center;
+  padding: 0px;
+}
+.sec_serv p{
+  width: 95%;
+  margin-left: 10px;
+}
+
+.sec_serv img{
+  width: 30%;
+  margin-left: 35%;
 }
 
 }
@@ -450,6 +486,7 @@ margin: 10px;
 .valeurs img{
   margin-left: 40%;
 }
+
 }
 
 @media (max-width:1510px){
@@ -466,19 +503,22 @@ margin: 10px;
     width: 50%;
     height: 5%;
   }
+  
+@media (max-width: 800px){
+
+  
+.who img{
+  display: none;
 }
 
-@media (max-width: 500px){
-  .work{
-    width: 80%;
-    height: 205px;
-    padding: 10px;
-  }
-
-  .work img{
-    display: none;
-  }
-
-
-
+.valeurs img{
+  display: none;
+}
+.sec_serv img{
+  visibility: hidden;
+}
+  
+  
+}
+  
 }
